@@ -33,7 +33,7 @@ const Hero = () => {
                   </div>
                   <div className="bg-blue-50 p-4 rounded-lg">
                     <img 
-                      src="/placeholder.svg" 
+                      src="https://images.unsplash.com/photo-1538108149393-fbbd81895907?w=800&auto=format&fit=crop&q=60"
                       alt="Hospital Linen" 
                       className="w-full h-32 object-cover rounded"
                     />
@@ -41,14 +41,14 @@ const Hero = () => {
                   </div>
                   <div className="bg-blue-50 p-4 rounded-lg">
                     <img 
-                      src="/placeholder.svg" 
+                      src="https://images.unsplash.com/photo-1583324113626-70df0f4deaab?w=800&auto=format&fit=crop&q=60"
                       alt="Medical Equipment" 
                       className="w-full h-32 object-cover rounded"
                     />
                     <p className="mt-2 text-center font-medium text-gray-800">Alat Medis</p>
                   </div>
                   <div className="bg-medical-light p-4 rounded-lg flex flex-col items-center justify-center">
-                    <span className="text-2xl font-bold text-medical-blue mb-1">100+</span>
+                    <span className="text-2xl font-bold text-medical-blue mb-1">200+</span>
                     <span className="text-sm text-center text-gray-700">Rumah Sakit Bermitra</span>
                   </div>
                 </div>

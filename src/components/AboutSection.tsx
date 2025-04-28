@@ -50,7 +50,7 @@ const AboutSection = () => {
             <div className="absolute -top-6 -right-6 w-24 h-24 bg-medical-blue rounded-full opacity-20"></div>
             <div className="rounded-lg overflow-hidden shadow-xl">
               <img 
-                src="/images/medical-facility.jpg" 
+                src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&auto=format&fit=crop&q=60" 
                 alt="Fasilitas Medis" 
                 className="w-full h-[400px] object-cover"
               />
