@@ -1,4 +1,3 @@
-
 import { Hospital, Mail, Phone, MapPin } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
@@ -7,19 +6,17 @@ const Footer = () => {
     <footer className="bg-gray-900 text-white">
       <div className="container-custom pt-16 pb-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {/* Company Info */}
           <div>
             <div className="flex items-center space-x-2 mb-4">
               <Hospital className="h-6 w-6 text-medical-blue" />
               <span className="text-xl font-display font-semibold">
-                MedSupply<span className="text-medical-blue">Pro</span>
+                Anugrah Victory <span className="text-medical-blue">Indonesia</span>
               </span>
             </div>
             <p className="text-gray-300 mb-4">
-              Penyedia alat kesehatan berkualitas tinggi untuk rumah sakit, dengan fokus pada linen dan tirai medis.
+              Solusi terpercaya untuk kebutuhan linen dan tirai medis berkualitas tinggi di fasilitas kesehatan Anda.
             </p>
             <div className="flex space-x-4">
-              {/* Social Media Icons */}
               <a href="#" className="text-gray-300 hover:text-medical-blue transition-colors">
                 <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                   <path fillRule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clipRule="evenodd" />
@@ -38,7 +35,6 @@ const Footer = () => {
             </div>
           </div>
           
-          {/* Quick Links */}
           <div>
             <h3 className="text-lg font-semibold mb-4">Tautan Cepat</h3>
             <ul className="space-y-2">
@@ -65,7 +61,6 @@ const Footer = () => {
             </ul>
           </div>
           
-          {/* Product Categories */}
           <div>
             <h3 className="text-lg font-semibold mb-4">Kategori Produk</h3>
             <ul className="space-y-2">
@@ -92,30 +87,29 @@ const Footer = () => {
             </ul>
           </div>
           
-          {/* Contact Information */}
           <div>
             <h3 className="text-lg font-semibold mb-4">Hubungi Kami</h3>
             <div className="space-y-3">
               <div className="flex items-start space-x-3">
                 <MapPin className="h-5 w-5 text-medical-blue shrink-0 mt-0.5" />
                 <p className="text-gray-300">
-                  Jl. Kesehatan No. 123, Jakarta Selatan, Indonesia
+                  Jl. Raya Kedung Halang No. 123, Bogor, Jawa Barat, Indonesia
                 </p>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-medical-blue shrink-0" />
-                <p className="text-gray-300">+62 21 1234 5678</p>
+                <p className="text-gray-300">+62 251 8574123</p>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-medical-blue shrink-0" />
-                <p className="text-gray-300">info@medsupplypro.com</p>
+                <p className="text-gray-300">info@anugrahvictory.co.id</p>
               </div>
             </div>
           </div>
         </div>
         
         <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400 text-sm">
-          <p>&copy; {new Date().getFullYear()} MedSupplyPro. Hak Cipta Dilindungi.</p>
+          <p>&copy; {new Date().getFullYear()} Anugrah Victory Indonesia. Hak Cipta Dilindungi.</p>
         </div>
       </div>
     </footer>

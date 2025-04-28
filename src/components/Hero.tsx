@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Blinds } from 'lucide-react';
 
@@ -9,10 +8,10 @@ const Hero = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="text-center md:text-left">
             <h1 className="heading-xl mb-4 text-gray-900">
-              Solusi <span className="text-medical-blue">Linen & Tirai Medis</span> Terbaik untuk Rumah Sakit
+              Solusi <span className="text-medical-blue">Linen & Tirai Medis</span> Terdepan dari Anugrah Victory Indonesia
             </h1>
             <p className="text-lg text-gray-700 mb-8">
-              Kami menyediakan linen berkualitas tinggi dan tirai medis yang dirancang khusus untuk memenuhi standar kesehatan dan kenyamanan di fasilitas medis Anda.
+              Penyedia terpercaya linen dan tirai medis berkualitas tinggi untuk rumah sakit dan fasilitas kesehatan. Dengan pengalaman lebih dari 10 tahun melayani ratusan rumah sakit di Indonesia.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
               <Button className="bg-medical-blue hover:bg-blue-600 text-white px-8 py-6 text-lg">

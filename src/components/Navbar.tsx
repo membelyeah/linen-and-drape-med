@@ -17,7 +17,7 @@ const Navbar = () => {
           <div className="flex items-center space-x-2">
             <Hospital className="h-8 w-8 text-medical-blue" />
             <Link to="/" className="text-xl font-display font-semibold text-gray-900">
-              MedSupply<span className="text-medical-blue">Pro</span>
+              Anugrah Victory <span className="text-medical-blue">Indonesia</span>
             </Link>
           </div>
           

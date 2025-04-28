@@ -6,29 +6,29 @@ import { Link } from 'react-router-dom';
 const products = [
   {
     id: 1,
-    title: "Tirai Antimikroba",
-    description: "Tirai yang dirancang khusus dengan bahan antimikroba untuk mencegah pertumbuhan bakteri dan jamur.",
+    title: "Tirai Antimikroba Premium",
+    description: "Tirai medis dengan teknologi antimikroba terdepan, tahan api, dan mudah dibersihkan. Ideal untuk ruang ICU dan kamar operasi.",
     icon: Blinds,
     category: "curtains",
   },
   {
     id: 2,
-    title: "Linen Tempat Tidur Pasien",
-    description: "Linen berkualitas tinggi yang nyaman dan tahan lama untuk tempat tidur pasien.",
+    title: "Linen Tempat Tidur Elite",
+    description: "Set linen premium dengan bahan katun 100%, antibakterial, dan nyaman untuk pasien. Tersedia dalam berbagai ukuran.",
     icon: BedDouble,
     category: "linen",
   },
   {
     id: 3,
-    title: "Tirai Privasi Bergerak",
-    description: "Sistem tirai privasi yang mudah digerakkan untuk fleksibilitas maksimum di ruang perawatan.",
+    title: "Tirai Modular Fleksibel",
+    description: "Sistem tirai modular yang dapat disesuaikan dengan layout ruangan. Dilengkapi dengan rel aluminium premium.",
     icon: Blinds,
     category: "curtains",
   },
   {
     id: 4,
-    title: "Linen Kamar Operasi",
-    description: "Linen steril khusus untuk kebutuhan kamar operasi dengan standar tertinggi.",
+    title: "Linen Bedah Steril",
+    description: "Linen khusus untuk ruang operasi dengan standar sterilisasi tertinggi. Tahan terhadap cairan dan bahan kimia.",
     icon: FileText,
     category: "linen",
   }

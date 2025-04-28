@@ -2,12 +2,12 @@
 import { BriefcaseMedical, CheckCircle } from 'lucide-react';
 
 const benefits = [
-  "Material berkualitas tinggi",
-  "Antimikroba & anti alergi",
-  "Tahan lama & mudah dibersihkan",
-  "Sesuai standar kesehatan",
-  "Desain yang ergonomis",
-  "Opsi kustomisasi tersedia",
+  "Produk berkualitas tinggi",
+  "Garansi produk terjamin",
+  "Pengiriman ke seluruh Indonesia",
+  "Konsultasi teknis 24/7",
+  "Pemasangan profesional",
+  "Layanan purna jual",
 ];
 
 const AboutSection = () => {
@@ -18,15 +18,15 @@ const AboutSection = () => {
           <div>
             <div className="mb-6 flex items-center">
               <BriefcaseMedical className="h-8 w-8 text-medical-blue mr-3" />
-              <h2 className="heading-lg">Tentang MedSupplyPro</h2>
+              <h2 className="heading-lg">Tentang Anugrah Victory Indonesia</h2>
             </div>
             
             <p className="text-gray-700 mb-6">
-              MedSupplyPro adalah penyedia alat kesehatan terkemuka yang berfokus pada linen dan tirai medis untuk rumah sakit dan fasilitas kesehatan lainnya. Dengan pengalaman lebih dari 15 tahun, kami telah melayani ratusan rumah sakit di seluruh Indonesia.
+              Anugrah Victory Indonesia adalah perusahaan terkemuka dalam penyediaan linen dan tirai medis berkualitas tinggi untuk rumah sakit dan fasilitas kesehatan di Indonesia. Dengan pengalaman lebih dari 10 tahun, kami telah dipercaya oleh lebih dari 200 rumah sakit di seluruh Indonesia.
             </p>
             
             <p className="text-gray-700 mb-8">
-              Kami berkomitmen untuk menyediakan produk berkualitas tinggi yang memenuhi standar keamanan dan kenyamanan. Tim kami terdiri dari profesional berpengalaman dalam industri kesehatan yang memahami kebutuhan spesifik fasilitas medis.
+              Komitmen kami adalah menyediakan produk berkualitas premium dengan standar internasional. Tim ahli kami siap memberikan solusi terbaik untuk kebutuhan linen dan tirai medis di fasilitas kesehatan Anda, didukung oleh layanan purna jual yang profesional.
             </p>
             
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -43,9 +43,9 @@ const AboutSection = () => {
             <div className="absolute -top-6 -right-6 w-24 h-24 bg-medical-blue rounded-full opacity-20"></div>
             <div className="rounded-lg overflow-hidden shadow-xl">
               <img 
-                src="/placeholder.svg" 
-                alt="Medical Equipment" 
-                className="w-full h-auto object-cover"
+                src="/images/medical-facility.jpg" 
+                alt="Fasilitas Medis" 
+                className="w-full h-[400px] object-cover"
               />
             </div>
           </div>
