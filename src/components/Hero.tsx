@@ -1,6 +1,6 @@
 
 import { Button } from "@/components/ui/button";
-import { Curtain } from 'lucide-react';
+import { Blinds } from 'lucide-react';
 
 const Hero = () => {
   return (
@@ -29,7 +29,7 @@ const Hero = () => {
               <div className="relative bg-white p-6 rounded-lg shadow-xl">
                 <div className="grid grid-cols-2 gap-4">
                   <div className="bg-medical-light p-4 rounded-lg flex flex-col items-center justify-center">
-                    <Curtain className="h-12 w-12 text-medical-blue mb-2" />
+                    <Blinds className="h-12 w-12 text-medical-blue mb-2" />
                     <span className="font-semibold text-gray-800">Tirai Medis</span>
                   </div>
                   <div className="bg-blue-50 p-4 rounded-lg">

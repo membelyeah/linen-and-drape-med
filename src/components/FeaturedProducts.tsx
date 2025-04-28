@@ -1,6 +1,6 @@
 
 import { Card, CardContent } from "@/components/ui/card";
-import { Curtain, BedDouble, FileText, Pill } from 'lucide-react';
+import { Blinds, BedDouble, FileText, Pill } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const products = [
@@ -8,7 +8,7 @@ const products = [
     id: 1,
     title: "Tirai Antimikroba",
     description: "Tirai yang dirancang khusus dengan bahan antimikroba untuk mencegah pertumbuhan bakteri dan jamur.",
-    icon: Curtain,
+    icon: Blinds,
     category: "curtains",
   },
   {
@@ -22,7 +22,7 @@ const products = [
     id: 3,
     title: "Tirai Privasi Bergerak",
     description: "Sistem tirai privasi yang mudah digerakkan untuk fleksibilitas maksimum di ruang perawatan.",
-    icon: Curtain,
+    icon: Blinds,
     category: "curtains",
   },
   {
