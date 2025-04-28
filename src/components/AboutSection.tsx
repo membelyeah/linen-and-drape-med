@@ -1,4 +1,3 @@
-
 import { BriefcaseMedical, CheckCircle } from 'lucide-react';
 
 const benefits = [
@@ -29,6 +28,14 @@ const AboutSection = () => {
               Komitmen kami adalah menyediakan produk berkualitas premium dengan standar internasional. Tim ahli kami siap memberikan solusi terbaik untuk kebutuhan linen dan tirai medis di fasilitas kesehatan Anda, didukung oleh layanan purna jual yang profesional.
             </p>
             
+            <div className="mb-8">
+              <p className="text-gray-700 font-semibold mb-2">Kantor Pusat:</p>
+              <p className="text-gray-600 mb-4">Ruko Prominence, Jl Jalur Suter No 39 Blok 38F RT.003 / RW. 006, Panunggangan Timur, Pinang Kota Tangerang, Banten 15143</p>
+              
+              <p className="text-gray-700 font-semibold mb-2">Kantor Operasional:</p>
+              <p className="text-gray-600">Graha Arda, Jalan HR Rasuna Said Kavling B6, Lt. 2 RT.4/RW.2, Setia Budi, Daerah Khusus Ibukota Jakarta 12910</p>
+            </div>
+
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {benefits.map((benefit, index) => (
                 <div key={index} className="flex items-center space-x-2">
